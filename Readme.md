@@ -17,7 +17,6 @@ Built with **FastAPI**, **Groq (Llama 3 70B)**, **PostgreSQL (Neon)**, **SQLAlch
 - [How It Works](#how-it-works)
 - [Getting Started](#getting-started)
 - [Configuration](#configuration)
-- [API Reference](#api-reference)
 - [Examples](#examples)
 
 ## Features
@@ -232,4 +231,3 @@ uvicorn app.main:app --reload
 | List all orders with value greater than 1000 | `WHERE` clause | Filtering |
 | Show each user's name with their total orders | `JOIN` + `GROUP BY` | Joins and aggregation |
 | What's the average order value by month? | `DATE_TRUNC` + `GROUP BY` + `AVG` | Time-series analysis |
-#
