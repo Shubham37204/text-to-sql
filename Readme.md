@@ -232,5 +232,4 @@ uvicorn app.main:app --reload
 | List all orders with value greater than 1000 | `WHERE` clause | Filtering |
 | Show each user's name with their total orders | `JOIN` + `GROUP BY` | Joins and aggregation |
 | What's the average order value by month? | `DATE_TRUNC` + `GROUP BY` + `AVG` | Time-series analysis |
-#   t e x t - t o - s q l  
- 
+#
